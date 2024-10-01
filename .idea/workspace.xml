@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FastApiReactFlowersShop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/data_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/parser_for_links.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/parser_for_one_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parser/parser_run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/req.txt" afterDir="false" />
+    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="creat project">
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/Basket.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/ButtonLogo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/Contacts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/InformationAndBasketLine.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/MenuHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/Messengers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/Search.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/ShopsLocation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/basket-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/google-map-pic.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/insta-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/location-pic.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/telega-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/whatsapp-pic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,25 +37,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mW8wC7jitt9YUmJf2TNDRoLbCX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/msver/PycharmProjects/FastApiReactFlowersShop"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/msver/PycharmProjects/FastApiReactFlowersShop/app_front/src/pictures&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\msver\PycharmProjects\FastApiReactFlowersShop\app_front\src\pictures" />
       <recent name="C:\Users\msver\PycharmProjects\FastApiReactFlowersShop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\msver\PycharmProjects\FastApiReactFlowersShop\app_front\src" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -64,6 +83,48 @@
       <option name="presentableId" value="Default" />
       <updated>1727181207625</updated>
     </task>
+    <task id="LOCAL-00001" summary="creatr project">
+      <option name="closed" value="true" />
+      <created>1727182138465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727182138465</updated>
+    </task>
+    <task id="LOCAL-00002" summary="created project">
+      <option name="closed" value="true" />
+      <created>1727182266965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727182266965</updated>
+    </task>
+    <task id="LOCAL-00003" summary="creat project">
+      <option name="closed" value="true" />
+      <created>1727183598103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727183598103</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creatr project" />
+    <MESSAGE value="created project" />
+    <MESSAGE value="creat project" />
+    <option name="LAST_COMMIT_MESSAGE" value="creat project" />
   </component>
 </project>
