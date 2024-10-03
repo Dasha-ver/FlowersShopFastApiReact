@@ -4,30 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="creat project">
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/Basket.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/ButtonLogo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/Contacts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/InformationAndBasketLine.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/MenuHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/Messengers.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/Search.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/ShopsLocation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/basket-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/google-map-pic.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/insta-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/location-pic.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/telega-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/whatsapp-pic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="created header and information line">
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/CategoriesButtonsLine.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/FlowersDeliveryTitle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/GeneralPageBannerSale.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/HrLine.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/balloon-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/banner-10-sale-pic.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/bouquets-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/by-the-piece-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/card-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/celebrate-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/flowers-box-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/flowers-in-basket-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/gift-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/roses-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/to-whom-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/toy-pic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_front/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727183598103</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created header and information line">
+      <option name="closed" value="true" />
+      <created>1727803457791</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727803457791</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +129,7 @@
     <MESSAGE value="creatr project" />
     <MESSAGE value="created project" />
     <MESSAGE value="creat project" />
-    <option name="LAST_COMMIT_MESSAGE" value="creat project" />
+    <MESSAGE value="created header and information line" />
+    <option name="LAST_COMMIT_MESSAGE" value="created header and information line" />
   </component>
 </project>

@@ -17,10 +17,10 @@
 .input-search{
     width: 650px;
     border-radius: 50px;
-    border-color: #FF69B4;
     height: 40px;
     padding: 0 20px;
     font-size: 15px;
+    border:  2px solid #FF69B4;
 }
 
 .header-table-logo{
@@ -89,7 +89,6 @@
 
 .dropdown-content-menu button {
     border-radius: 50px;
-    border-color: #FF69B4;
     margin-left: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -101,6 +100,7 @@
     text-align:center;
     cursor: pointer;
     color: #708090;
+    border:  2px solid #FF69B4;
 }
 
 /* Изменение цвета выпадающих ссылок при наведении курсора */
@@ -122,7 +122,6 @@
     height: 40px;
     border-radius: 50px;
     background-color: white;
-    border-color: #008000;
     cursor: pointer;
     color: #696969;
     font-size: 20px;
@@ -130,6 +129,7 @@
     display: flex;
     justify-content: center;
     padding-top: 7px;
+    border: none;
 }
 
 .location-pic{
@@ -146,7 +146,7 @@
 
 .dropdown-content-shops-location button {
     border-radius: 50px;
-    border-color: #008000;
+    border:  2px solid #008000;
     font-weight: bold;
     text-decoration: none;
     background-color: white;
@@ -198,7 +198,7 @@
 
 .info-basket-table-td-basket{
     padding-top: 15px;
-    padding-left: 100px;
+    padding-left: 120px;
 }
 
 .messengers-table-button{
@@ -207,15 +207,16 @@
     display: flex;
     justify-content: center;
     background-color: #F5F5F5;
+    width: 27px;
 }
 
 .contacts-table-td{
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .basket-pic{
-    width: 47px;
-    height: 45px;
+    width: 40px;
+    height: 38px;
 }
 
 .basket-button{
@@ -224,7 +225,63 @@
     cursor: pointer;
 }
 
+.categories-buttons-line-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
 
+.categories-buttons-pic{
+    border-radius: 50%;
+    height: 70px;
+    width: 75px;
+    border:  4px solid #DCDCDC;
+    margin-left: 5px;
+}
+
+.categories-button{
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.categories-title-div{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.hr-line{
+    margin: -30px auto 10px;
+	padding: 0;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #DCDCDC;
+	box-shadow: 0 20px 20px -20px #333;
+	width: 95%;
+}
+
+.flowers-delivery-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.general-page-banner-sale-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.general-page-banner-sale-button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
 
 
 
