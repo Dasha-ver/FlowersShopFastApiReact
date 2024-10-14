@@ -4,25 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="created header and information line">
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/CategoriesButtonsLine.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/FlowersDeliveryTitle.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/GeneralPageBannerSale.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/HrLine.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/balloon-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/banner-10-sale-pic.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/bouquets-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/by-the-piece-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/card-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/celebrate-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/flowers-box-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/flowers-in-basket-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/gift-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/roses-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/to-whom-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/toy-pic.jpg" afterDir="false" />
+    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="created categories buttons and sale banner">
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/Item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/ItemsTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/SelectedCategoryPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FastApiReactFlowersShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FastApiReactFlowersShop.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_front/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/CategoriesButtonsLine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/CategoriesButtonsLine.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +39,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.models.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/msver/PycharmProjects/FastApiReactFlowersShop/app_front/src/pictures&quot;
@@ -111,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727803457791</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created categories buttons and sale banner">
+      <option name="closed" value="true" />
+      <created>1727965722434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727965722434</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +136,7 @@
     <MESSAGE value="created project" />
     <MESSAGE value="creat project" />
     <MESSAGE value="created header and information line" />
-    <option name="LAST_COMMIT_MESSAGE" value="created header and information line" />
+    <MESSAGE value="created categories buttons and sale banner" />
+    <option name="LAST_COMMIT_MESSAGE" value="created categories buttons and sale banner" />
   </component>
 </project>

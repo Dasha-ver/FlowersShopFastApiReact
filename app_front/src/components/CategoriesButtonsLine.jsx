@@ -11,73 +11,72 @@ import to_whom_pic from '../pictures/to-whom-pic.jpg'
 import by_the_piece_pic from '../pictures/by-the-piece-pic.jpg'
 
 
-const CategoriesAndButtonsLine = () => {
+const CategoriesAndButtonsLine = (category) => {
 
     return (
         <table class='categories-buttons-line-table'>
-
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('bouquets_of_roses')}>
                         <img className="categories-buttons-pic" src={roses_pic} alt="roses_pic"/>
                             <div class='categories-title-div'>Розы</div>
                     </button>
                 </td>
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('bouquets')}>
                         <img className="categories-buttons-pic" src={bouquets_pic} alt="bouquets_pic"/>
                             <div class='categories-title-div'>Букеты</div>
                     </button>
                 </td>
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('flowers_boxes')}>
                         <img className="categories-buttons-pic" src={flowers_box_pic} alt="flowers_box_pic"/>
                             <div class='categories-title-div'>Коробки</div>
                     </button>
                 </td>
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('flowers_baskets')}>
                         <img className="categories-buttons-pic" src={flowers_in_basket_pic} alt="flowers_in_basket_pic"/>
                             <div class='categories-title-div'>Корзины</div>
                     </button>
                 </td>
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('toys')}>
                         <img className="categories-buttons-pic" src={toy_pic} alt="toy_pic"/>
                             <div class='categories-title-div'>Игрушки</div>
                     </button>
                 </td>
-                <td class='categories-buttons-line-table-td'>
+                <td class='categories-buttons-line-table-td' onClick={() => category.setName('balloons')}>
                     <button class='categories-button'>
                         <img className="categories-buttons-pic" src={balloon_pic} alt="balloon_pic"/>
                             <div class='categories-title-div'>Шары</div>
                     </button>
                 </td>
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('presents')}>
                         <img className="categories-buttons-pic" src={gift_pic} alt="gift_pic"/>
                             <div class='categories-title-div'>Подарки</div>
                     </button>
                 </td>
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('cards')}>
                         <img className="categories-buttons-pic" src={card_pic} alt="card_pic"/>
                             <div class='categories-title-div'>Открытки</div>
                     </button>
                 </td>
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('celebrate')}>
                         <img className="categories-buttons-pic" src={celebrate_pic} alt="celebrate_pic"/>
                             <div class='categories-title-div'>Повод</div>
                     </button>
                 </td>
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('to_whom')}>
                         <img className="categories-buttons-pic" src={to_whom_pic} alt="to_whom_pic"/>
                             <div class='categories-title-div'>Кому</div>
                     </button>
                 </td>
                 <td class='categories-buttons-line-table-td'>
-                    <button class='categories-button'>
+                    <button class='categories-button' onClick={() => category.setName('by_the_piece')}>
                         <img className="categories-buttons-pic" src={by_the_piece_pic} alt="by_the_piece"/>
                             <div class='categories-title-div'>Поштучно</div>
                     </button>

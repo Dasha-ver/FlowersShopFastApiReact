@@ -110,3 +110,5 @@ class Toy(Base):
     title = Column(String, nullable=False)
     description = Column(String, nullable=False)
     price = Column(Numeric, nullable=False)
+
+
