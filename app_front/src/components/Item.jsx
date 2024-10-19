@@ -2,11 +2,11 @@ import React from "react";
 import basket_pic from '../pictures/basket-pic.png'
 
 const Item = (props) => {
+
     return(
 
          <tr>
              <td>
-                <button class='item-button'>
                     <table class='item-table'>
                         <tr>
                             <img class="item-img" src={props.item.link} alt="No image"/>
@@ -23,7 +23,6 @@ const Item = (props) => {
                         </tr>
 
                         </table>
-                    </button>
                 </td>
         </tr>
     )
