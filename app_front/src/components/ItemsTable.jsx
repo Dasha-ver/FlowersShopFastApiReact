@@ -1,6 +1,4 @@
 import Item from "./Item";
-import React, {useState, useEffect} from 'react';
-import axios from "axios";
 import {useNavigate} from 'react-router-dom';
 
 
@@ -10,9 +8,8 @@ const ItemsTable = ({items, handleClick, category}) => {
 
     return(
         <div>
-            {category}
             <table class="items-table">
-                {items.map(item => <button class='item-button' onClick={() => navigate("/SelectedItemPage")}>
+                {items.map(item => <button class='item-button' onClick={() => navigate("/kvetki.bel/category/item",{state:{category:category, id: item.id}})}>
                     <Item item={item} key={item.id}/></button>)}
             </table>
             <div class='btn-show-more-div'>

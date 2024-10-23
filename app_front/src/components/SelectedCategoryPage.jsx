@@ -32,7 +32,7 @@ const SelectedCategoryPage = () => {
     }
 
     const handleButtonLogoClick = () =>{
-        navigate("/GeneralPage")
+        navigate("/kvetki.bel")
         }
 
 

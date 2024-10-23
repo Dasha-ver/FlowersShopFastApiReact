@@ -13,7 +13,7 @@ const GeneralPage = () => {
     const navigate = useNavigate()
     const [category, setCategory] = useState('')
 
-    navigate("/SelectedCategoryPage",{state:{category:category}})
+    navigate("/kvetki.bel/category",{state:{category:category}})
 
     return(
         <div>

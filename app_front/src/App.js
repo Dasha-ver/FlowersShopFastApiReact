@@ -11,10 +11,10 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                    <Route path="/GeneralPage" element={<GeneralPage/>}/>
-                    <Route path="/SelectedCategoryPage" element={<SelectedCategoryPage/>}/>
+                    <Route path="/kvetki.bel" element={<GeneralPage/>}/>
+                    <Route path="/kvetki.bel/category" element={<SelectedCategoryPage/>}/>
                     <Route path="/ItemsTable" element={<ItemsTable/>}/>
-                    <Route path="/SelectedItemPage" element={<SelectedItemPage/>}/>
+                    <Route path="/kvetki.bel/category/item" element={<SelectedItemPage/>}/>
             </Routes>
 
         </div>

@@ -123,7 +123,7 @@
     border-radius: 50px;
     background-color: white;
     cursor: pointer;
-    color: #696969;
+    color: #FF69B4;
     font-size: 20px;
     font-weight: 400;
     display: flex;
@@ -131,6 +131,8 @@
     padding-top: 7px;
     border: none;
 }
+
+.shops-location-button:hover {color:  #008000;}
 
 .location-pic{
     width: 25px;
@@ -153,7 +155,7 @@
     height: 40px;
     width: 260px;
     cursor: pointer;
-    color: #708090;
+    color: #FF69B4;
     margin-bottom: 5px;
     margin-top: 5px;
     display: flex;
@@ -262,6 +264,15 @@
 	width: 95%;
 }
 
+.hr-line-for-item-card{
+    margin: -30px auto 10px;
+	padding: 0;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid #DCDCDC;
+	width: 95%;
+}
+
 .flowers-delivery-title{
     display: flex;
     justify-content: center;
@@ -288,7 +299,7 @@
     justify-content: center;
     align-items: center;
     width: 220px;
-    height: 365px;
+    height: 375px;
     border:  4px solid #DCDCDC;
     cursor: pointer;
 
@@ -303,14 +314,15 @@
 .item-title{
     color: #C71585;
     font-size: 17px;
-}
+    height: 30px;
+    }
 
 .item-price{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     padding-top: 20px;
-    padding-bottom: 10px;
     padding-left: 60px;
+    height: 40px;
 }
 
 .basket-pic-item{
@@ -495,11 +507,214 @@ $thumb-size: 16px;
     font-size: 20px;
     }
 
+.item-card-img-td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 425px;
+
+    }
+
+.item-card-img{
+    width: 340px;
+    height: 415px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.item-card-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.item-card-desc-td{
+    width: 800px;
+    padding-left: 20px;
+    }
+
+.item-card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 450;
+    }
+
+.item-card-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #708090;
+    font-weight: 500;
+    margin-top: 10px;
+    }
+
+.item-card-desc-tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    }
+
+.item-card-price{
+    color: #FF69B4;
+    font-size: 30px;
+    font-weight: 500;
+    padding-right: 45px;
+    }
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    overflow: hidden;
+    border: none;
+    margin-right: 45px;
+}
 
 
+.increment-decrement-btn {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FF69B4;
+  background-color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border:  2px solid #DCDCDC;
+  font-size: 25px;
+}
 
+.increment-decrement-btn:hover {
+    background-color: #f3f9ff;
+}
 
+.increment-decrement-btn-p {
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #F5F8FB;
+  border-right: 1px solid #F5F8FB;
+}
 
+.in-basket-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: none;
+    background-color: #FF69B4;
+    color: white;
+    font-size: 17px;
+    width: 175px;
+    height: 37px;
+    cursor: pointer;
+    margin-right: 45px;
+    }
+
+.in-basket-pic{
+    width: 28px;
+    height: 25px;
+    margin-right: 10px;
+    }
+
+.buy-with-one-click-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border:  2px solid #FF69B4;
+    background-color: white;
+    color: #FF69B4;
+    font-size: 17px;
+    width: 215px;
+    height: 37px;
+    cursor: pointer;
+    }
+
+.item-card-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.item-card-add-card-balloon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 365px;
+    margin-left: 20px;
+    background-color: #F8F8FF;
+    border:  1px solid #DCDCDC;
+    border-radius: 5px;
+    color: #FF69B4;
+    font-size: 17px;
+    cursor: pointer;
+    }
+
+.item-card-pic{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    }
+
+.item-card-condition-td{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 240px;
+    border:  1px solid #DCDCDC;
+    border-radius: 5px;
+    height: 150px;
+    margin-right: 10px;
+    }
+
+.item-card-condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+
+.item-card-condition-tr{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 15px;
+    color: #FF69B4;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-top: 10px;
+    }
+
+.item-card-condition-desc-tr{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 15px;
+    color: #708090;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-top: 18px;
+    }
+
+.item-card-condition-desc-tr-paid{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 15px;
+    color: #708090;
+    font-weight: 500;
+    }
 
 
 
