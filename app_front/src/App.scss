@@ -716,7 +716,57 @@ $thumb-size: 16px;
     font-weight: 500;
     }
 
+.description-table{
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 1240px;
+    margin-left: 50px;
+    }
 
+.description-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 450;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    color: #708090;
+    font-weight: 450;
+    font-size: 17px;
+    }
+
+.description-ol{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-right: 60px;
+    padding-left: 60px;
+    color: #708090;
+    font-weight: 450;
+    font-size: 17px;
+    }
+
+.instruction-for-paid{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-right: 60px;
+    padding-left: 60px;
+    color: #696969;
+    font-weight: 650;
+    font-size: 17px;
+    padding-bottom: 20px;
+    }
 
 
 

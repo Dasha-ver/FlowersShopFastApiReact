@@ -10,7 +10,6 @@ import paid_pic from '../pictures/paid-pic.png'
 
 const ItemCard = (props) => {
 
-
     return(
         <div class='item-card-div'>
             <table class='item-card-table'>

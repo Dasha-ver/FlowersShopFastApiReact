@@ -6,7 +6,6 @@ import FlowersDeliveryTitle from './FlowersDeliveryTitle'
 import GeneralPageBannerSale from './GeneralPageBannerSale'
 import {useNavigate} from 'react-router-dom';
 import React, {useState} from 'react';
-import AboutChapter from './AboutChapter'
 
 const GeneralPage = () => {
 
@@ -23,7 +22,6 @@ const GeneralPage = () => {
             <HrLine/>
             <FlowersDeliveryTitle/>
             <GeneralPageBannerSale/>
-            <AboutChapter/>
         </div>
 
     )

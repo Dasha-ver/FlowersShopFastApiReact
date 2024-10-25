@@ -4,29 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="created selected item page">
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/BuyWithOneClickBtn.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/InBasketBtn.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/IncrementDecrementBtn.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/buy-with-one-click-basket-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/delivery-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/in-basket-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/paid-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/sale-pic.png" afterDir="false" />
+    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="created item page">
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForBouquets.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForBouquetsOfRoses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForFlowersBoxes.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_front/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/AboutChapter.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_front/src/components/ItemCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/ItemCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/components/ItemsTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/ItemsTable.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_front/src/components/SelectedCategoryPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/SelectedCategoryPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/components/SelectedItemPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/SelectedItemPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser/parser_for_one_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser/parser_for_one_category.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729341302424</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="created item page">
+      <option name="closed" value="true" />
+      <created>1729691702483</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729691702483</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +167,7 @@
     <MESSAGE value="created categories buttons and sale banner" />
     <MESSAGE value="created selected category page" />
     <MESSAGE value="created selected item page" />
-    <option name="LAST_COMMIT_MESSAGE" value="created selected item page" />
+    <MESSAGE value="created item page" />
+    <option name="LAST_COMMIT_MESSAGE" value="created item page" />
   </component>
 </project>

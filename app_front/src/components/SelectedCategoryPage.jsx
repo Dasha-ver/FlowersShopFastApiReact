@@ -7,6 +7,9 @@ import InformationAndBasketLine from './InformationAndBasketLine'
 import CategoriesButtonsLine from './CategoriesButtonsLine'
 import HrLine from './HrLine'
 import axios from "axios";
+import DescriptionForBouquets from './DescriptionForBouquets'
+import DescriptionForBouquetsOfRoses from './DescriptionForBouquetsOfRoses'
+import DescriptionForFlowersBoxes from './DescriptionForFlowersBoxes'
 
 const SelectedCategoryPage = () => {
     const location = useLocation()
@@ -35,14 +38,12 @@ const SelectedCategoryPage = () => {
         navigate("/kvetki.bel")
         }
 
-
     return(
         <div>
             <Header handleButtonLogoClick={handleButtonLogoClick}/>
             <InformationAndBasketLine/>
             <CategoriesButtonsLine setName={setCategory}/>
             <HrLine/>
-
             <table class='range-slider-table'>
                 <td class='range-slider-min-value-td'><td>{value.min} BYN</td><td class='symbol'>&gt;</td></td>
                 <td class='range-slider-td'>
@@ -50,6 +51,15 @@ const SelectedCategoryPage = () => {
                  <td class='range-slider-max-value-td'><td class='symbol'>&lt;</td><td>{value.max} BYN</td></td>
              </table>
             <ItemsTable handleClick={handleClick} items={selectedItems} category={category}/>
+            {category}
+            {category == 'bouquets'
+                    ? <DescriptionForBouquets/>
+                :'flowers_boxes'
+                    ? <DescriptionForFlowersBoxes/>
+                :'bouquets_of_roses'
+                    ? <DescriptionForBouquetsOfRoses/>
+                    : <DescriptionForBouquets/>
+            }
          </div>
 
         )

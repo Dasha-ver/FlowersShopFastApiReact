@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-from parser_for_links import ParserForLinks
 import requests
 import data_client
 
