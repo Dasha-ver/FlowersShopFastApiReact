@@ -722,6 +722,8 @@ $thumb-size: 16px;
     background-color: #F5F5F5;
     width: 1240px;
     margin-left: 50px;
+    padding-bottom: 20px;
+    margin-top: 10px;
     }
 
 .description-title{
@@ -743,6 +745,7 @@ $thumb-size: 16px;
     color: #708090;
     font-weight: 450;
     font-size: 17px;
+    padding-top: 10px;
     }
 
 .description-ol{
@@ -765,11 +768,92 @@ $thumb-size: 16px;
     color: #696969;
     font-weight: 650;
     font-size: 17px;
-    padding-bottom: 20px;
+    padding-top: 20px;
     }
 
+.footer-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF69B4;
+    width: 1240px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    }
 
+.footer-tr{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 150px;
+    }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    }
+
+.footer-td{
+    width: 500px;
+    padding-top: 30px;
+    }
+
+.footer-btn{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    background-color: #FF69B4;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    }
+
+.loc-pic{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+    }
+
+.footer-pic{
+    width: 30px;
+    height: 30px;
+    padding-left: 7px;
+    padding-right: 5px;
+    }
+
+.footer-td-right{
+    width: 500px;
+    padding-bottom: 234px;
+    }
+
+.footer-media-btn{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    background-color: #FF69B4;
+    border: none;
+    cursor: pointer;
+    }
+
+.footer-paid-system-pic{
+    width: 50px;
+    height: 30px;
+    margin-right:10px;
+    }
+
+.footer-paid-system-belkart-pic{
+    width: 70px;
+    height: 30px;
+    margin-right:10px;
+    }
 
 
 

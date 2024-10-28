@@ -10,6 +10,13 @@ import axios from "axios";
 import DescriptionForBouquets from './DescriptionForBouquets'
 import DescriptionForBouquetsOfRoses from './DescriptionForBouquetsOfRoses'
 import DescriptionForFlowersBoxes from './DescriptionForFlowersBoxes'
+import DescriptionForBasket from './DescriptionForBasket'
+import DescriptionForToys from './DescriptionForToys'
+import DescriptionForBalloons from './DescriptionForBalloons'
+import DescriptionForPresents from './DescriptionForPresents'
+import DescriptionForCards from './DescriptionForCards'
+import Description from './Description'
+import Footer from './Footer'
 
 const SelectedCategoryPage = () => {
     const location = useLocation()
@@ -51,15 +58,17 @@ const SelectedCategoryPage = () => {
                  <td class='range-slider-max-value-td'><td class='symbol'>&lt;</td><td>{value.max} BYN</td></td>
              </table>
             <ItemsTable handleClick={handleClick} items={selectedItems} category={category}/>
-            {category}
-            {category == 'bouquets'
-                    ? <DescriptionForBouquets/>
-                :'flowers_boxes'
-                    ? <DescriptionForFlowersBoxes/>
-                :'bouquets_of_roses'
-                    ? <DescriptionForBouquetsOfRoses/>
-                    : <DescriptionForBouquets/>
-            }
+                {(category === 'bouquets') ? <DescriptionForBouquets/> :
+                    (category === 'flowers_boxes') ? <DescriptionForFlowersBoxes/> :
+                        (category === 'bouquets_of_roses') ? <DescriptionForBouquetsOfRoses/> :
+                            (category === 'flowers_baskets') ? <DescriptionForBasket/> :
+                                (category === 'toys') ? <DescriptionForToys/> :
+                                    (category === 'balloons') ? <DescriptionForBalloons/> :
+                                        (category === 'presents') ? <DescriptionForPresents/> :
+                                            (category === 'cards') ? <DescriptionForCards/> :
+                                                <Description/>
+                }
+            <Footer/>
          </div>
 
         )

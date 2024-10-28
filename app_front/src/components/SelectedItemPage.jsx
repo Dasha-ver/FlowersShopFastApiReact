@@ -6,6 +6,7 @@ import InformationAndBasketLine from './InformationAndBasketLine'
 import CategoriesButtonsLine from './CategoriesButtonsLine'
 import HrLine from './HrLine'
 import {useNavigate, useLocation} from 'react-router-dom';
+import Footer from './Footer'
 
 const SelectedItemPage = () => {
 
@@ -41,6 +42,7 @@ const SelectedItemPage = () => {
             <div>
                 {items.map(item => <ItemCard itemCard={item} key={item.id}/>)}
             </div>
+            <Footer/>
         </div>
 
     )
