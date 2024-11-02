@@ -16,9 +16,13 @@ const GeneralPage = () => {
 
     navigate("/kvetki.bel/category",{state:{category:category}})
 
+    const setMenuSelect = () => {
+        navigate("/kvetki.bel/description")
+        }
+
     return(
         <div>
-            <Header/>
+            <Header setMenuSelect={setMenuSelect}/>
             <InformationAndBasketLine />
             <CategoriesButtonsLine setName={setCategory}/>
             <HrLine/>
@@ -27,7 +31,6 @@ const GeneralPage = () => {
             <DescriptionForGeneralPage/>
             <Footer/>
         </div>
-
     )
 }
 

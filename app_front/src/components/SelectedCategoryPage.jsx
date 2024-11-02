@@ -45,9 +45,13 @@ const SelectedCategoryPage = () => {
         navigate("/kvetki.bel")
         }
 
+    const setMenuSelect = () => {
+        navigate("/kvetki.bel/description")
+        }
+
     return(
         <div>
-            <Header handleButtonLogoClick={handleButtonLogoClick}/>
+            <Header handleButtonLogoClick={handleButtonLogoClick} setMenuSelect={setMenuSelect}/>
             <InformationAndBasketLine/>
             <CategoriesButtonsLine setName={setCategory}/>
             <HrLine/>

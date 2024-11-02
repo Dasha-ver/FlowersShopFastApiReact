@@ -198,9 +198,9 @@
     padding-left: 100px;
 }
 
-.info-basket-table-td-basket{
+.info-basket-table-td-auth-table{
     padding-top: 15px;
-    padding-left: 120px;
+    padding-left: 60px;
 }
 
 .messengers-table-button{
@@ -853,6 +853,24 @@ $thumb-size: 16px;
     width: 70px;
     height: 30px;
     margin-right:10px;
+    }
+
+.auth-btn{
+    border: none;
+    cursor: pointer;
+    background-color: #F5F5F5;
+    color: #FF69B4;
+    font-size: 15px;
+    font-weight: 400;
+    }
+
+.auth-pic{
+    width: 30px;
+    height: 30px;
+    }
+
+.auth-table{
+    margin-top: 7px;
     }
 
 

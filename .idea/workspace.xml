@@ -4,29 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="created individual item page">
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/Description.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForBalloons.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForBasket.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForCards.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForGeneralPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForPresents.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForToys.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/belkart-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/facebook-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/loc-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/mail-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/mastercard-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/phone-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/visa-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/watch-pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/youtube-pic.png" afterDir="false" />
+    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="created footer">
+      <change afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/authComponents/AuthTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/authComponents/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/authComponents/Private.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/authComponents/Signup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/authComponents/User.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForPayment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/SelectedMenuHeaderPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/auth-basket-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/logout-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/pictures/user-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/services/auth-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/services/auth.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_front/src/services/resource.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_front/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/IncrementDecrementBtn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/IncrementDecrementBtn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/InformationAndBasketLine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/InformationAndBasketLine.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/MenuHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/MenuHeader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_front/src/components/SelectedCategoryPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/SelectedCategoryPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/components/SelectedItemPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/SelectedItemPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729853552508</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="created footer">
+      <option name="closed" value="true" />
+      <created>1730149895497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730149895497</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +198,7 @@
     <MESSAGE value="created selected item page" />
     <MESSAGE value="created item page" />
     <MESSAGE value="created individual item page" />
-    <option name="LAST_COMMIT_MESSAGE" value="created individual item page" />
+    <MESSAGE value="created footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="created footer" />
   </component>
 </project>
