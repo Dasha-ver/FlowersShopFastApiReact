@@ -2,7 +2,7 @@ import Header from './Header'
 import InformationAndBasketLine from './InformationAndBasketLine'
 import CategoriesButtonsLine from './CategoriesButtonsLine'
 import HrLine from './HrLine'
-import {useNavigate} from 'react-router-dom';
+import {useLocation, useNavigate} from 'react-router-dom';
 import React, {useState} from 'react';
 import Footer from './Footer'
 import DescriptionForPayment from './DescriptionForPayment'
@@ -10,29 +10,41 @@ import DescriptionForDelivery from './DescriptionForDelivery'
 
 const SelectedMenuHeaderPage = () => {
 
-    const navigate = useNavigate()
+    const location = useLocation()
+    const navigate =useNavigate()
     const [category, setCategory] = useState('')
-    const [menuSelect, setMenuSelect] = useState('')
+    const [menuSelect, setMenuSelect] = useState(location.state.select)
 
-    navigate("/kvetki.bel/category",{state:{category:category}})
+    if (category !== "" ){
+        navigate("/kvetki.bel/category",{state:{category:category}})
+    }
 
     const handleButtonLogoClick = () =>{
         navigate("/kvetki.bel")
         }
 
+    const handlePayment = () =>{
+        setMenuSelect('payment')
+        }
+
+    const handleDelivery = () =>{
+        setMenuSelect('delivery')
+        }
+
     return(
          <div>
-            <Header handleButtonLogoClick={handleButtonLogoClick} setMenuSelect={setMenuSelect}/>
+            <Header handleButtonLogoClick={handleButtonLogoClick} handlePayment={handlePayment} handleDelivery={handleDelivery}/>
             <InformationAndBasketLine/>
             <CategoriesButtonsLine setName={setCategory}/>
             <HrLine/>
+            {category}
             {menuSelect}
-                {(menuSelect === 'delivery') ? <DescriptionForDelivery/> :
+                {(menuSelect === 'payment') ? <DescriptionForPayment/> :
                     (menuSelect === 'delivery') ? <DescriptionForDelivery/> :
-                                                    <DescriptionForPayment/>
+                                                    <DescriptionForDelivery/>
                     }
 
-        <Footer/>
+            <Footer/>
         </div>
         )
     }

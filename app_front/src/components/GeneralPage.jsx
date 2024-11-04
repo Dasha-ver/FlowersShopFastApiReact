@@ -16,13 +16,21 @@ const GeneralPage = () => {
 
     navigate("/kvetki.bel/category",{state:{category:category}})
 
-    const setMenuSelect = () => {
-        navigate("/kvetki.bel/description")
+    const handlePayment = () => {
+        navigate("/kvetki.bel/description", {state:{select:'payment'}} )
+        }
+
+    const handleDelivery = () =>{
+        navigate("/kvetki.bel/description", {state:{select:'delivery'}} )
+        }
+
+    const handleContacts = () =>{
+        navigate("/kvetki.bel/description", {state:{select:'contacts'}} )
         }
 
     return(
         <div>
-            <Header setMenuSelect={setMenuSelect}/>
+            <Header handlePayment={handlePayment} handleDelivery={handleDelivery} handleContacts={handleContacts}/>
             <InformationAndBasketLine />
             <CategoriesButtonsLine setName={setCategory}/>
             <HrLine/>
