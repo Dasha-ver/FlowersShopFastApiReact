@@ -8,8 +8,6 @@ const MenuHeader = ({handlePayment, handleDelivery, handleContacts}) => {
                     <button onClick={handlePayment}>ОПЛАТА</button>
                     <button onClick={handleDelivery}>ДОСТАВКА</button>
                     <button onClick={handleContacts}>КОНТАКТЫ</button>
-                    <button>БЛОГ</button>
-                    <button>ОТЗЫВЫ</button>
                 </div>
         </div>
 
