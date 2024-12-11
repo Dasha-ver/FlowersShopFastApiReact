@@ -5,7 +5,7 @@ from starlette.responses import JSONResponse
 from app import models
 from app.database import engine, get_db
 from app.models import (Balloon, Bouquet, BouquetOfRoses, ByThePiece, Card, Celebrate, FlowersBasket, FlowersBox,
-                        Present, ToWhom, Toy, User, Role)
+                        Present, ToWhom, Toy, User, Role, Basket)
 from sqlalchemy.sql.expression import func
 from datetime import datetime, timedelta
 from typing import Union, List
@@ -15,8 +15,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 from sqlalchemy.orm import Session
-from . import schemas
-
+from app import schemas
 
 SECRET_KEY = "09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7"
 ALGORITHM = "HS256"
@@ -233,6 +232,15 @@ def get_toys_min_price(db: Session = Depends(get_db)):
     return minPrice
 
 
+@app.post("/api/basket", response_model=schemas.Basket)
+def create_basket(basket: schemas.BasketCreate, db: Session = Depends(get_db)):
+    db_basket = models.Basket(user_id=basket.user_id, table_name=basket.table_name, product_id=basket.product_id)
+    db.add(db_basket)
+    db.commit()
+    db.refresh(db_basket)
+    return db_basket
+
+
 async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):
     credentials_exception = HTTPException(
         status_code=status.HTTP_401_UNAUTHORIZED,
@@ -276,7 +284,7 @@ def create_access_token(data: dict, expires_delta: Union[timedelta, None] = None
     if expires_delta:
         expire = datetime.utcnow() + expires_delta
     else:
-        expire = datetime.utcnow() + timedelta(minutes=15)
+        expire = datetime.utcnow() + timedelta(hours=24)
     to_encode.update({"exp": expire})
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
     return encoded_jwt
@@ -284,18 +292,18 @@ def create_access_token(data: dict, expires_delta: Union[timedelta, None] = None
 
 @app.post("/register-admin", status_code=201, response_model=schemas.User)
 def create_admin(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
-    admin = db.query(models.User).filter(models.User.role == models.Role.ADMIN.name).first()
+    admin = db.query(models.User).filter(models.User.role == models.Role.USER.name).first()
     if admin:
         raise HTTPException(
-                    status_code=status.HTTP_403_FORBIDDEN,
-                    detail="The administrator exists",
-                )
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="The administrator exists",
+        )
 
     else:
         admin = models.User(
             username=form_data.username,
             hashed_password=models.User.get_password_hash(form_data.password),
-            role=models.Role.ADMIN
+            role=models.Role.USER
 
         )
         db.add(admin)
@@ -327,4 +335,3 @@ async def read_users_me(current_user: models.User = Depends(get_current_active_u
 @app.get("/only-admin/", dependencies=[Depends(allow_admin)])
 async def only_admin():
     return {"detail": "success"}
-

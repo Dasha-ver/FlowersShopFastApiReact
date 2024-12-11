@@ -38,9 +38,8 @@ const SelectedItemPage = () => {
             <InformationAndBasketLine/>
             <CategoriesButtonsLine setName={setCategory}/>
             <HrLine/>
-            {category}
             <div>
-                {items.map(item => <ItemCard itemCard={item} key={item.id}/>)}
+                {items.map(item => <ItemCard itemCard={item} key={item.id} choseCategory={location.state.category} />)}
             </div>
             <Footer/>
         </div>

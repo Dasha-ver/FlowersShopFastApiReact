@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="created menu">
-      <change beforePath="$PROJECT_DIR$/app_front/src/components/DescriptionForContacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/DescriptionForContacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/components/MenuHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/MenuHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_front/src/components/SelectedMenuHeaderPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/SelectedMenuHeaderPage.jsx" afterDir="false" />
+    <list default="true" id="fd473ddd-cec8-4891-ba1b-a9d08e6b3fe5" name="Changes" comment="created menu items">
+      <change afterPath="$PROJECT_DIR$/app_front/src/components/BasketPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/GeneralPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/InBasketBtn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/InBasketBtn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/ItemCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/ItemCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_front/src/components/SelectedItemPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app_front/src/components/SelectedItemPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;Dasha-ver&quot;,
+      &quot;author&quot;: &quot;Dasha-ver&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;Dasha-ver&quot;,
+    &quot;author&quot;: &quot;Dasha-ver&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Dasha-ver/FlowersShopFastApiReact&quot;,
+    &quot;accountId&quot;: &quot;6ea77518-4e14-4ad2-b1af-a10e7a25e4a6&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -40,7 +66,8 @@
     &quot;Python.models.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/msver/PycharmProjects/FastApiReactFlowersShop/app_front/src/pictures&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/msver/PycharmProjects/test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -60,7 +87,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-337b0a7a993a-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.19416.19" />
       </set>
     </attachedChunks>
   </component>
@@ -169,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730733118930</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="created menu items">
+      <option name="closed" value="true" />
+      <created>1730807533170</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730807533170</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +231,7 @@
     <MESSAGE value="created footer" />
     <MESSAGE value="created authorization" />
     <MESSAGE value="created menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="created menu" />
+    <MESSAGE value="created menu items" />
+    <option name="LAST_COMMIT_MESSAGE" value="created menu items" />
   </component>
 </project>

@@ -21,7 +21,7 @@ class User(Base):
     role = Column(Enum(Role))
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
     @staticmethod
     def get_password_hash(password):
@@ -51,6 +51,15 @@ class User(Base):
         db.commit()
 
         return user
+
+
+class Basket(Base):
+    __tablename__ = "basket"
+
+    id = Column(Integer, primary_key=True, nullable=False)
+    user_id = Column(Integer, nullable=False)
+    table_name = Column(String, nullable=False)
+    product_id = Column(Integer, nullable=False)
 
 
 class Balloon(Base):

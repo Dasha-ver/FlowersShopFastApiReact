@@ -7,8 +7,48 @@ import balloon_pic from '../pictures/balloon-pic.png'
 import sale_pic from '../pictures/sale-pic.png'
 import delivery_pic from '../pictures/delivery-pic.jpg'
 import paid_pic from '../pictures/paid-pic.png'
+import Resource from "../services/resource.service";
+import AuthService from "../services/auth.service";
+import {useState, useEffect} from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
+
 
 const ItemCard = (props) => {
+
+  const navigate = useNavigate();
+
+  const [user, setUser] = useState('');
+  const [category, setCategory] = useState(props.choseCategory)
+  const [itemId, setItemId] = useState(props.itemCard.id)
+
+  useEffect(() => {
+    Resource.getCurrentUser().then(
+      (response) => {
+        setUser(response.data.id.toString());
+      },
+      (error) => {
+        console.log("User page", error.response);
+        // Invalid token
+        if (error.response && error.response.status === 403) {
+          AuthService.logout();
+          navigate("/login");
+          window.location.reload();
+        }
+      }
+    );
+  }, []);
+
+const handleInBasket = () => {
+    const data = {
+      user_id: user,
+      table_name: category,
+      product_id: itemId
+    };
+      axios.post('http://127.0.0.1:8000/api/basket', data).then((response) => {
+        console.log(response.status, response.data.token);
+      });
+  }
 
     return(
         <div class='item-card-div'>
@@ -23,7 +63,7 @@ const ItemCard = (props) => {
                     <tr class='item-card-desc-tr'>
                         <td class='item-card-price'>{props.itemCard.price} BYN </td>
                         <td><IncrementDecrementBtn/></td>
-                        <td><InBasketBtn/></td>
+                        <td><InBasketBtn handleInBasket={handleInBasket}/></td>
                         <td><BuyWithOneClickBtn/></td>
                     </tr>
                     <hr class="hr-line-for-item-card"></hr>

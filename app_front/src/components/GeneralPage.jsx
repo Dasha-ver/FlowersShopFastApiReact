@@ -8,11 +8,13 @@ import {useNavigate} from 'react-router-dom';
 import React, {useState} from 'react';
 import DescriptionForGeneralPage from './DescriptionForGeneralPage'
 import Footer from './Footer'
+import { Dialog, DialogContent, DialogContentText, DialogTitle, useMediaQuery, useTheme } from '@mui/material'
 
 const GeneralPage = () => {
 
     const navigate = useNavigate()
     const [category, setCategory] = useState('')
+
 
     navigate("/kvetki.bel/category",{state:{category:category}})
 
